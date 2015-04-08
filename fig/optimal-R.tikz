@@ -1,8 +1,8 @@
 % -*- root: ../Main/root.tex -*-
 \begin{tikzpicture}
   \draw (0,10)node(yaxis)[above]{$R$}--(0,0)--(10,0)node(xaxis)[right]{$y$};
-  \draw[dotted] (0,0) -- (5,5);
-  \draw[thick] (5,5)--(9,9)node[right]{$R(y)$};
+  \draw[thick] (0,0) -- (5,5);
+  \draw[dotted] (5,5)--(9,9)node[right]{$R(y)$};
    \coordinate (c) at (5,5);
   \draw[dashed]  (c) -| (xaxis -| c) node[below] {$y^*$};
 \end{tikzpicture}

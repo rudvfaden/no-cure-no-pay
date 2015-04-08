@@ -1,13 +1,12 @@
 # Fdb version 3
-["biber root"] 1428479621 "root.bcf" "root.bbl" "root" 1428492795
-  "root.bcf" 1428492795 94125 93ab77544b228326197272f1851cb905 ""
+["biber root"] 1428493391 "root.bcf" "root.bbl" "root" 1428493396
+  "root.bcf" 1428493396 94125 93ab77544b228326197272f1851cb905 ""
   (generated)
-  "root.blg"
   "root.bbl"
-["pdflatex"] 1428492794 "/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.tex" "/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.pdf" "root" 1428492795
-  "../fig/optimal-R.pdf" 1428479611 70269 a6b6cf2cdd56ad0f03fd2b8a541322ec ""
+["pdflatex"] 1428493394 "/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.tex" "/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.pdf" "root" 1428493396
+  "../fig/optimal-R.pdf" 1428493370 70270 a6970af3788a91f9ac528e92b1e36a02 ""
   "/home/rudfaden/.texlive2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1426508462 1729993 d42186a82dfcec2b200eed3b0d402ab2 ""
-  "/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.aux" 1428492795 3136 f04215baac3e5530ce156deac9d3f1f6 ""
+  "/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.aux" 1428493396 3136 f04215baac3e5530ce156deac9d3f1f6 ""
   "/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.tex" 1428492793 5994 e2add045c3c11af61ee101172ff010c1 ""
   "/home/rudfaden/texmf/fonts/enc/dvips/MinionPro/a_4giagd.enc" 1421914234 3154 38fb3ee512994e7cf94969f8efb34b2f ""
   "/home/rudfaden/texmf/fonts/enc/dvips/MinionPro/a_jidws5.enc" 1421914234 2656 de94ef61cca810bd03d2c1464bbe6fe0 ""
@@ -296,17 +295,17 @@
   "/usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt" 1426502333 3847213 47a2035cdf4a6735b866c78ec971fde4 ""
   "/usr/local/texlive/2014/texmf.cnf" 1426502311 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "preamble.tex" 1428480632 1388 b91c69698517bf0594b80983093c21ef ""
-  "root.aux" 1428492795 3136 f04215baac3e5530ce156deac9d3f1f6 ""
-  "root.bbl" 1428479622 466 921be720f73869efc5385662ceafc433 "biber root"
-  "root.out" 1428492795 40 6947a564670c140dc67ddefad52ba313 ""
-  "root.run.xml" 1428492795 2325 f2558f04582b76f10daf44b2495ee8eb ""
+  "root.aux" 1428493396 3136 f04215baac3e5530ce156deac9d3f1f6 ""
+  "root.bbl" 1428493393 466 921be720f73869efc5385662ceafc433 "biber root"
+  "root.out" 1428493396 40 6947a564670c140dc67ddefad52ba313 ""
+  "root.run.xml" 1428493396 2325 f2558f04582b76f10daf44b2495ee8eb ""
   "root.tex" 1428492793 5994 e2add045c3c11af61ee101172ff010c1 ""
   (generated)
-  "root.run.xml"
   "root.bcf"
   "root.aux"
   "root.pdf"
+  "root.run.xml"
   "root.log"
+  "root.out"
   "/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.log"
   "/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.pdf"
-  "root.out"
