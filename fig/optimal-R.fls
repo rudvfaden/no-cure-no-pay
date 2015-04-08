@@ -1,0 +1,9 @@
+PWD /home/rudfaden/Dropbox/PhD/No cure no pay/fig
+INPUT /usr/local/texlive/2014/texmf.cnf
+INPUT /usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /home/rudfaden/Dropbox/PhD/No cure no pay/fig/optimal-R.ptex
+OUTPUT /home/rudfaden/Dropbox/PhD/No cure no pay/fig/optimal-R.log
+INPUT /home/rudfaden/Dropbox/PhD/No cure no pay/fig/optimal-R.aux
+INPUT /home/rudfaden/Dropbox/PhD/No cure no pay/fig/optimal-R.aux
+OUTPUT /home/rudfaden/Dropbox/PhD/No cure no pay/fig/optimal-R.aux

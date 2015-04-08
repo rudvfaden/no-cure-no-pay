@@ -1,0 +1,9 @@
+[0] Config.pm:320> INFO - This is Biber 1.9
+[0] Config.pm:323> INFO - Logfile is 'root.blg'
+[34] biber:277> INFO - === Wed Apr  8, 2015, 09:53:41
+[34] Biber.pm:333> INFO - Reading 'root.bcf'
+[109] Biber.pm:635> INFO - Found 0 citekeys in bib section 0
+[109] Utils.pm:144> WARN - The file 'root.bcf' does not contain any citations!
+[141] bbl.pm:517> INFO - Writing 'root.bbl' with encoding 'ascii'
+[141] bbl.pm:606> INFO - Output to root.bbl
+[142] Biber.pm:106> INFO - WARNINGS: 1
