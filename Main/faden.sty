@@ -1,0 +1,192 @@
+% -*- root: test.tex -*-
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{faden}[11/08/14 My Own LaTeX package]
+%%--------------------------------------------------------------------------
+%% Pacakges
+%%--------------------------------------------------------------------------
+%\RequirePackage[top=2.5cm, bottom=2.5cm, left=3.5cm, right=3.5cm]{geometry} %Margins
+
+
+% Title and author
+
+% Condition
+\newif\if@drafting
+\def\maybedraft{%
+  \if@drafting
+   \begin{flushleft}
+   \vskip 6em
+    Incomplete draft. Do not believe; do not cite.\hfill git: \VCRevision\ on \VCDateTEX
+    \vskip 6em
+   \end{flushleft}
+   \else
+  %Full draft. Enjoy!
+   \fi}
+
+\DeclareOption{drafting}{\@draftingtrue}
+
+\ProcessOptions\relax
+%\LoadClass[]{article}[1994/06/01]
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  %\vspace{-\topskip}      % remove the initial space
+  
+     \noindent
+     \maybedraft
+  
+  {}
+  \begingroup    % instead of \begin{center}
+  \begin{flushleft}
+  \let \footnote \thanks
+  \hrule height \z@        % to avoid the insertion of lineskip glue
+    {\LARGE \protect\textbf{\@title} \par}%
+    \vskip 2.5em
+    {\large
+      \lineskip .5em
+
+        \@author
+        \par}%
+    \vskip 1.5em
+    {\small
+      \@date}
+  \end{flushleft}
+  \par\endgroup            % instead of \end{center}
+  \vskip 6em             % <--- modify this to adjust the separation
+}
+\makeatother
+
+% Version control
+
+%\RequirePackage{microtype}                   % improves the spacing between words and letters. Created wird warning, so I will not use it now
+\RequirePackage{fixltx2e}                   % fix common latex errors
+% Sections
+\RequirePackage[explicit]{titlesec}
+\RequirePackage{textcase}
+\usepackage[T1]{fontenc}
+% sections and title
+
+\titleformat{\section}
+  {\normalfont}{\thesection}{1em}{\MakeUppercase{#1}}
+% subsection
+\titleformat{\subsection}
+  {\normalfont}{\thesubsection}{1em}{\itshape{#1}}
+% subsubsection
+\titleformat{\subsubsection}
+  {\normalfont}{\thesubsubsection}{1em}{\itshape{#1}}
+
+%% Math
+\RequirePackage{mathtools}                  % math
+\RequirePackage{amsthm}                   % theorems and definition
+\RequirePackage{bm}                     % Bold math
+%% Figures and tables
+
+\RequirePackage{booktabs} 									% pretty tables
+\RequirePackage{subcaption} 								% subfigures
+\RequirePackage{pgfplots,tikz} 	% figures
+\pgfplotsset{compat=1.12} % removes warning about backwards competebility
+\usetikzlibrary{decorations.pathreplacing}
+%% References
+\RequirePackage{hyperref}                   % hypersetup
+\RequirePackage{cleveref}                   % auto-detect cross reference type when using \cref
+% bibliography
+\RequirePackage{csquotes}
+\emergencystretch=1em
+\hfuzz=5.002pt 
+\RequirePackage[%
+backend=biber,                       % use BibTeX
+style=chicago-authordate,
+natbib=true,
+bibwarn=true,
+backref=true,
+url=false, isbn=false
+]{biblatex}
+%% Misc.
+
+\RequirePackage{url}                    % for line breaks in url links
+\RequirePackage[titletoc,toc,title]{appendix}         % appendices
+\RequirePackage{accents}                  % underbar
+% Index
+\RequirePackage{imakeidx}                   % Index
+\RequirePackage{xstring}
+\RequirePackage{xcolor}
+%Draft option
+\RequirePackage{ifdraft}
+% Page margins
+
+%%--------------------------------------------------------------------------
+%% Colors and hypersetup
+%%--------------------------------------------------------------------------
+\definecolor{webgreen}{rgb}{0,.5,0}
+\definecolor{webbrown}{rgb}{.6,0,0}
+\definecolor{myblue}{HTML}{394773}
+\hypersetup{
+  colorlinks = true,                % Color links instead of ugly boxes
+  urlcolor   = webbrown,            % Colors for external hyperlinks
+  linkcolor  = myblue,                % Colors of internal links
+  citecolor  = webgreen,            % Colors of citations
+  pdfauthor = {\myauthor},
+  pdftitle = {\mytitle},
+  pdfkeywords = {\mykeywords}
+  pdfcreator = {LaTeXing}
+}
+%%--------------------------------------------------------------------------
+%% Commands
+%%--------------------------------------------------------------------------
+% math
+\newcommand{\ubar}[1]{\underaccent{\bar}{#1}} % underbar
+\global\long\def\argmax{\operatornamewithlimits{arg\, max}} % argmax
+% partial derivative with optional second argument
+\usepackage{xparse} %needed for DeclareDocumentCommand
+\DeclareDocumentCommand{\pder}{ O{} O{} m }{\frac{\partial^{#2}#1}{\partial#3^{#2}}}
+
+% Sets
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+%%--------------------------------------------------------------------------
+%% Theorem & Definitions
+%%--------------------------------------------------------------------------
+
+% Theorem Styles
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{assumption}[theorem]{Assumption}
+% Definition Styles
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+%custom example with circle as closure
+\newcounter{example}[section]
+\newenvironment{example}[1][]{\refstepcounter{example}\par\medskip
+\noindent \textbf{Example~\theexample. #1} \rmfamily }{\vskip -1em\begin{flushright}$\circ$\end{flushright}\medskip}
+\numberwithin{example}{section}
+% Put theorem qed square on its own line
+\renewcommand\qedsymbol{$\blacksquare$}
+\usepackage{etoolbox}
+\patchcmd{\endproof}
+  {\popQED}
+  {\par\popQED}
+  {}
+  {}
+
+%%--------------------------------------------------------------------------
+%% Other
+%%--------------------------------------------------------------------------
+
+\setkeys{Gin}{width=1\textwidth} % make figures as wide as the margins
+%%Important words are added to the index and printed in different bold
+\newcommand{\important}[1]
+{\IfSubStr{#1}{!}
+    {\textcolor{black}{\textbf{\StrBefore{#1}{!}~\StrBehind{#1}{!}}}\index{#1}}
+    {\textcolor{black}{\textbf{#1}}\index{#1}\kern-1pt}
+}
+
+%% Version control
+\immediate\write18{sh ./vc}
+\input{vc.tex}

@@ -1,14 +1,13 @@
 % -*- root: root.tex -*-
 \RequirePackage[l2tabu, orthodox]{nag}                  % Checks for obsolete syntax and package % Layout
 \documentclass[11pt,a4paper,oneside]{article}
-%% font
 
+%% font
 \usepackage{MnSymbol}
 \usepackage[mathlf,textlf]{MinionPro}
 \usepackage[T1]{fontenc}
-\usepackage{textcomp}
 \usepackage{enumitem}
-\usepackage{undertilde}
+\usepackage[utf8]{inputenc}
 
 %% Author
 \def\myaffiliation{University of Copenhagen}
@@ -23,23 +22,13 @@
 \usetikzlibrary{decorations.pathreplacing}
 \graphicspath{{../fig/}}
 \usepackage{commath}
-% custom macroes 
-\newcommand{\cEX}{\operatorname{E}\expectarg}
-\DeclarePairedDelimiterX{\expectarg}[1]{[}{]}{%
-  \ifnum\currentgrouptype=16 \else\begingroup\fi
-  \activatebar#1
-  \ifnum\currentgrouptype=16 \else\endgroup\fi
-}
+\usepackage[colorinlistoftodos,draft]{todonotes}        % todo notes
+\setlength{\marginparwidth}{3.5cm} % fix for todo notes
 
-\newcommand{\innermid}{\nonscript\;\delimsize\vert\nonscript\;}
-\newcommand{\activatebar}{%
-  \begingroup\lccode`\~=`\|
-  \lowercase{\endgroup\let~}\innermid 
-  \mathcode`|=\string"8000
-}
+
+%% custom macroes 
 
 %% biblatex path
-% \addbibresource{Remote.bib}
 \addbibresource{Remote.bib}
 
 % Author and title
@@ -50,3 +39,4 @@
 \small{\texttt{\href{\myemail}{\myemail}}}
 }
 \date{\today} % no date
+

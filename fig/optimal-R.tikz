@@ -6,4 +6,3 @@
    \coordinate (c) at (5,5);
   \draw[dashed]  (c) -| (xaxis -| c) node[below] {$y^*$};
 \end{tikzpicture}
-0
