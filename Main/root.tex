@@ -6,7 +6,7 @@
 This paper examines a principal agent model in which a risk neutral physician makes an ex-ante effort choice while receiving payment from a risk neutral
 principal. It is assumed that the physician is subject to limited liability, such
 that he cannot be punished for bad outcome, but only rewarded for good outcomes.
-\VCModified
+
 \end{abstract}
 
 \section{Introduction} % (fold)
@@ -63,17 +63,14 @@ for all $R\in[0,y]$ is given by
 \[
     \frac{1}{u'(R(y))}=\frac{1}{\lambda}
 \]
-I.e.\ the lowest fixed wage, that fulfills the hospitals participation constraint. This is the \emph{first-best} solution to the optimization problem. 
+I.e.\ the optimal fixed wage, that fulfills the hospitals participation constraint. This is the \emph{first-best} solution to the optimization problem. I will denote this by $R_\lambda(y)$
 
-However, when effort is not contractible, a fixed wage will induce the physician to choose the lowest level of effort that clears the hospitals participation constraint. This will happen only if $U(1/\lambda,e)\geq U(y,0)$. Let the effort level  $\underline{e}$ that solves $E[y|e]=y^0_L$, which is lager than $0$, given that $E[y|e=0]=0$. Let $\underline{y}$ be the level of production, when effort is $\underline{e}$. The hospitals profit is then 
+However, when effort is not contractible, a fixed wage is not optimal. Note that when effort is not contractible, the optimal wage is given by 
 \[
- \underline{y}-\frac{1}{\lambda}
+    \frac{1}{u'(R(y))}=\frac{1}{\lambda}+\frac{\mu}{\lambda}\frac{g_e(y|e)}{g(y|e)}>R_\lambda(y)
 \]
-and the physicians utility is 
-\[
- u\left(1\big/\lambda\right)-C(\underline{e})
-\]
-This solution is clearly suboptimal, as long as there exists another contract $R(y)$ for which it holds that $u(R(y))\geq C(e)$.
+It thereby follows that a fixed wage is sub-optimal when effort is not contractible.
+
 
 % section fixed_wage (end)
 \section{Optimal payment with a risk neutral agent} % (fold)
@@ -104,6 +101,7 @@ If $R$ solves the maximization problem in \cref{subeq:khun-tucker1}, then there 
                 y & \text{for } y\geq y^*
             \end{cases}            
 \]
+Further,  (i) the hospital is payed according to their participation constraint. (ii)  if the effort constraint in \cref{subeq:khun-tucker3} binds, then the solution is sub-optimal. (iii)  if the effort constraint does not bind, such that the physician utility does not depend on effort, the first bes solution is archived. 
 \end{proposition}
 
 \begin{proof}
@@ -160,11 +158,12 @@ The first order conditions are
 \begin{subequations}
 \label{eq:foc}
 \begin{align}
-    g(y|e)\left[1-\lambda+\mu \frac{g_e(y|e)}{g(y|e)}\right]+\theta(y)-\eta(y) \label{eq:foc1} \\
-    R(y)\left[(1-\lambda)g_e(y|e)+\mu g_{ee}(y|e)\right]-C_e(e)-C_{ee}(e)
+    g(y|e)\left[1-\lambda+\mu \frac{g_e(y|e)}{g(y|e)}\right] +\theta(y)-\eta(y) & =0 \label{subeq:foc1} \\
+    R(y)g_e(y|e)-C_e(e)+\mu\left[R(y)g_{ee}(y|e)- C_{ee(e)}\right] \qquad & \nonumber \\ 
+    +\lambda\left[(y-R(y)) g_e(y|e)-y_l^0\right] & =0 \label{subeq:foc2}
 \end{align}
 \end{subequations}
-Because of non-negativity and complementary slackness conditions for $\theta(y)$ and $\eta(y)$, \cref{eq:foc1} yields
+Because of non-negativity and complementary slackness conditions for $\theta(y)$ and $\eta(y)$, \cref{subeq:foc1} yields
 \begin{subequations}
 \label{eq:KT-analysis}
 \begin{alignat}{3}
@@ -175,7 +174,17 @@ Because of non-negativity and complementary slackness conditions for $\theta(y)$
 \end{alignat}
 \end{subequations}
 
-It is clear from \cref{eq:foc1,eq:mlrp} that for $y$ large enough \cref{subeq:large-y} is always feasible. However, feasibility of \cref{subeq:interval-y,subeq:large-y} is not guaranteed, even for $y=0$ However, if $1>-\lambda+\mu \frac{g_e(y|e)}{g(y|e)}$, which is likely, then there must be some range of $e$ where \cref{subeq:large-y} (and thereby also \cref{subeq:interval-y}) holds. 
+It is clear from \cref{subeq:foc1,eq:mlrp} that for $y$ large enough \cref{subeq:large-y} is always feasible. However, feasibility of \cref{subeq:interval-y,subeq:large-y} is not guaranteed, even for $y=0$ However, if $1>-\lambda+\mu \frac{g_e(y|e)}{g(y|e)}$, which is likely, then there must be some range of $e$ where \cref{subeq:large-y} (and thereby also \cref{subeq:interval-y}) holds. Thereby, as $\mu>0$ and the MLRP is increasing, $\phi(y,e)$ is also increasing.
+
+To proof (i) that $y=y_L^0$, note that the middle part of \cref{subeq:foc2} is strictly negative by \cref{asump:unique-solution}. Also note that by optimality, the first part is zero. I then follows that the last term must be strictly positive. As $\lambda\geq0$, lambda must be positive and by complementarity of slackness and so the hospitals participation constraint must bind. 
+
+to proof (ii), that the solution is sub-optimal, note that given (i) it is trivial that $y\in[0,y]$. Thereby we can write the optimal contract as 
+\[
+    R(y)=\frac{1}{\lambda}+\frac{\mu}{\lambda}\frac{g_e(y_L^0|e)}{g(y_L^0|e)}>R_\lambda(y)
+\]
+
+
+To proof (iii), note when $\mu=0$, $R(y)=\frac{1}{\lambda}=R_\lambda(y)$
 
 % subsection an_alternative_proof (end)
 % section optimal_payment_with_a_risk_neutral_agent (end)
@@ -221,7 +230,7 @@ Further, by implicitly defining $R(y)\in[0,y]$ by
 \[
     \frac{1}{u'(R(y))}=\frac{1}{\lambda}+\frac{\mu}{\lambda}\frac{g_e(y|e)}{g(y|e)}
 \]
-and noting that by concavity of $u(R(y))$, $R(y)$ is increasing in $e$. However, when the physician is risk neutral, the physicians utility is linear in $y$. Therefore he will apply effort in a constant rate as $y$ increases. When the agent is risk averse, he requires an increasing amount of payment to apply the same increase in effort. Therefore the effort he provides is decreasing in $R(y)$. \todo{Det var det jeg skrev om tidligere}
+and noting that by concavity of $u(R(y))$, $R(y)$ is increasing in $e$. However, when the physician is risk neutral, the physicians utility is linear in $y$. Therefore he will apply effort in a constant rate as $y$ increases. When the agent is risk averse, he requires an increasing amount of payment to apply the same increase in effort. Therefore the effort he provides is decreasing in $R(y)$.
 
 
 \begin{proposition}
@@ -229,5 +238,5 @@ A risk averse physician will apply weakly less effort than a risk neutral physic
 \end{proposition}
 %section optimal_payment_with_a_risk_averse_agent (end)
 \printbibliography%
-\listoftodos
+\listoftodos%
 \end{document}

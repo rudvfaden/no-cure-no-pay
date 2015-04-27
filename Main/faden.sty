@@ -15,7 +15,8 @@
   \if@drafting
    \begin{flushleft}
    \vskip 6em
-    Incomplete draft. Do not believe; do not cite.\hfill git: \VCRevision\ on \VCDateTEX
+    Incomplete draft. Do not believe; do not cite.  \vskip 1pt
+    \textcolor[rgb]{0.5,0.5,0.5}{\footnotesize{git: \VCAuthor\ -- \VCDateISO\ -- commit \texttt{\VCRevision}}  }
     \vskip 6em
    \end{flushleft}
    \else
@@ -187,6 +188,3 @@ url=false, isbn=false
     {\textcolor{black}{\textbf{#1}}\index{#1}\kern-1pt}
 }
 
-%% Version control
-\immediate\write18{sh ./vc}
-\input{vc.tex}
