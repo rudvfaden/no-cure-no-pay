@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"ltx",
+				"ltx program	LaTeXing Option Program"
+			],
+			[
 				"end",
-				"end{subequations}	root.tex"
+				"end{proof}	root.tex"
 			],
 			[
 				"cite",
@@ -68,10 +72,6 @@
 				"usepackage{package}	latex-document"
 			],
 			[
-				"ltx",
-				"ltx root	LaTeXing Option Root File"
-			],
-			[
 				"insta",
 				"installed.packages"
 			],
@@ -87,15 +87,15 @@
 			"file": "Main/root.tex",
 			"settings":
 			{
-				"buffer_size": 20174,
+				"buffer_size": 20815,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Remote:   origin @ git@github.com:rudvfaden/no-cure-no-pay.git\nLocal:    master ~/Dropbox/PhD/No cure no pay\nHead:     9d5e3b4 expanded and added proofs for proposition 1.\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"contents": "Remote:   origin @ git@github.com:rudvfaden/no-cure-no-pay.git\nLocal:    master ~/Dropbox/PhD/No cure no pay\nHead:     3101078 Updated and changed abstract\n\n\nUntracked files:\n	Main/presentation/\n	Main/simulation.R\n\nChanges:\n	Modified   Main/Remote.bib\n	Modified   Main/faden.sty\n	Modified   Main/preamble.tex\n	Modified   Main/root.pdf\n	Deleted    Main/root.rtf\n	Modified   Main/root.tex\n	Deleted    Main/test.md\n	Modified   Main/vc.tex\n	Modified   no cure no pay.sublime-project\n	Modified   no cure no pay.sublime-workspace\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
 			"settings":
 			{
-				"buffer_size": 979,
+				"buffer_size": 1286,
 				"line_ending": "Unix",
 				"name": "*git-status*: No cure no pay",
 				"read_only": true,
@@ -103,26 +103,10 @@
 			}
 		},
 		{
-			"file": "Main/test.md",
+			"file": "Main/presentation/pres.tex",
 			"settings":
 			{
-				"buffer_size": 13223,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Main/Remote.bib",
-			"settings":
-			{
-				"buffer_size": 204391,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Main/preamble.tex",
-			"settings":
-			{
-				"buffer_size": 1127,
+				"buffer_size": 6118,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,6 +115,22 @@
 			"settings":
 			{
 				"buffer_size": 934,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Main/Remote.bib",
+			"settings":
+			{
+				"buffer_size": 205142,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Main/preamble.tex",
+			"settings":
+			{
+				"buffer_size": 1158,
 				"line_ending": "Unix"
 			}
 		}
@@ -143,16 +143,64 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "subtes",
+		"last_filter": "pack",
 		"selected_items":
 		[
 			[
-				"subtes",
-				"SubTexting: Send Message"
+				"pack",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"cac",
+				"LaTeXing: Rebuild Cache (Hard)"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"pac",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Snippet: be",
+				"Snippet: myBeamer"
+			],
+			[
+				"set bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"cle",
+				"LaTeXing: Clean up (Remove) all Nonessential Files"
+			],
+			[
+				"cl",
+				"LaTeXing: Clean Temporary Output Dictionary"
 			],
 			[
 				"upgra",
 				"Package Control: Upgrade Package"
+			],
+			[
+				"subtes",
+				"SubTexting: Send Message"
 			],
 			[
 				"git p",
@@ -187,16 +235,8 @@
 				"Git: Log"
 			],
 			[
-				"cle",
-				"LaTeXing: Clean up (Remove) all Nonessential Files"
-			],
-			[
 				"quib",
 				"Build With: LaTeX - Choose Quick Build"
-			],
-			[
-				"cl",
-				"LaTeXing: Clean Temporary Output Dictionary"
 			],
 			[
 				"up",
@@ -227,14 +267,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"en",
-				"Package Control: Enable Package"
-			],
-			[
-				"dis",
-				"Package Control: Disable Package"
-			],
-			[
 				"disa",
 				"Package Control: Disable Package"
 			],
@@ -261,10 +293,6 @@
 			[
 				"set mar",
 				"Set Syntax: Markdown GFM"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"set shell",
@@ -369,10 +397,6 @@
 			[
 				"Snippet: tikz",
 				"Snippet: TikZ Demo: Snowmen"
-			],
-			[
-				"pack",
-				"PackageResourceViewer: Open Resource"
 			],
 			[
 				"pack res",
@@ -575,10 +599,6 @@
 				"Set Syntax: LaTeXing"
 			],
 			[
-				"ena",
-				"Package Control: Enable Package"
-			],
-			[
 				"ima",
 				"Snippet: Markdown_image_(mdi)"
 			],
@@ -637,29 +657,9 @@
 			[
 				"set py",
 				"Set Syntax: Python"
-			],
-			[
-				"tex live",
-				"TeX Live Package Manager: Manage Collections"
-			],
-			[
-				"tex li",
-				"TeX Live Package Manager: Manage Packages"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
-				"syn la",
-				"Set Syntax: LaTeXing"
-			],
-			[
-				"ren",
-				"File: Rename"
 			]
 		],
-		"width": 664.0
+		"width": 529.0
 	},
 	"console":
 	{
@@ -680,18 +680,41 @@
 	},
 	"expanded_folders":
 	[
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/fig"
 	],
 	"file_history":
 	[
-		"/home/rudfaden/texmf/tex/latex/faden-package/faden.sty",
+		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/completions/LaTeX Math.latexing-completions",
+		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/completions/LaTeX Greek Letters.sublime-completions",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-completions.sublime-completions",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/SublimePackageSync.sublime-settings",
+		"/home/rudfaden/.config/sublime-text-3/Packages/SublimePackageSync/SublimePackageSync.sublime-settings",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-		"/home/rudfaden/Dropbox/Programming/bash/bin/mendeley_launch.sh",
-		"/home/rudfaden/Downloads/Rud.tex",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar (rudfaden-HP-EliteBook-2570p's conflicted copy 2015-05-04).sublime-menu",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/presentation/pres.tex",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/alert-item.sublime-snippet",
+		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeX/Itemize.sublime-snippet",
+		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/snippets/beamer/Frame.sublime-snippet",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-snippets/myBeamer.sublime-snippet",
+		"/home/rudfaden/texmf/tex/latex/mtheme/beamerthemem.sty",
+		"/etc/default/grub",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/test.tex",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root (Hanss-Mac-minis modstridende kopi 2015-04-29).log",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/faden.sty",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/ (Rud Faden's conflicted copy 2015-04-30).gitignore",
+		"/home/rudfaden/.zshrc",
+		"/home/rudfaden/.profile",
+		"/home/rudfaden/Downloads/vc/git-unix/vc",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/vc.tex",
+		"/home/rudfaden/texmf/tex/latex/faden-package/faden.sty",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/emph.sublime-macro",
+		"/home/rudfaden/Downloads/Rud.tex",
+		"/home/rudfaden/Dropbox/Programming/bash/bin/mendeley_launch.sh",
 		"/home/rudfaden/.bashrc",
 		"/home/rudfaden/barsch",
 		"/home/rudfaden/profile",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/faden.sty",
 		"/home/rudfaden/texmf/tex/latex/faden-package/README.md",
 		"/home/rudfaden/Dropbox/Programming/kjh-vita/vc.tex",
 		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/preamble.tex",
@@ -765,7 +788,6 @@
 		"/home/rudfaden/Dropbox/Programming/SAS/Format kommuner 2011.sas",
 		"/home/rudfaden/Downloads/Praksistælling 2014 log til Rud.log",
 		"/home/rudfaden/7pf",
-		"/home/rudfaden/.zshrc",
 		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.tex",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/Pandown.sublime-settings",
@@ -788,29 +810,9 @@
 		"/home/rudfaden/.config/sublime-text-3/Packages/TikZ/snippets/demo1.sublime-snippet",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-snippets/series.sublime-snippet",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/EasyMotion.sublime-settings",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-completions.sublime-completions",
 		"/home/rudfaden/Dropbox/Programming/bash/bin/chrome_launch.sh",
 		"/home/rudfaden/Dropbox/PhD/information-and-care/Main/preamble.tex",
-		"/home/rudfaden/Downloads/untitled.md",
-		"/home/rudfaden/Downloads/untitled",
-		"/home/rudfaden/Dropbox/PhD/information-and-care/Main/root.tex",
-		"/usr/sbin/addgroup",
-		"/home/rudfaden/Dropbox/Notes/Husk.note",
-		"/home/rudfaden/Dropbox/Notes/questions.note",
-		"/home/rudfaden/Dropbox/PhD/bib/library (rudfaden-HP-EliteBook-2570p's conflicted copy 2015-03-23).bib",
-		"/home/rudfaden/Dropbox/PhD/information-and-care/Main/application.tex",
-		"/home/rudfaden/Downloads/39257468_50921_20150327094238/39257468_50921_20150327094238_VIRKSOMHEDER.csv",
-		"/home/rudfaden/Dropbox/PhD/Moral hazard and risk spreading/Code/yder-cvr.R",
-		"/home/rudfaden/Downloads/39257468_50921_20150327094238/39257468_50921_20150327094238_DELTAGERE.csv",
-		"/home/rudfaden/Dropbox/Programming/Latex Packages/My LaTeX Package/faden.sty",
-		"/home/rudfaden/.config/Mutate/scripts/googletranslate/google_translate.py",
-		"/home/rudfaden/Dropbox/PhD/information-and-care/Main/Remote.bib",
-		"/home/rudfaden/Dropbox/PhD/information-and-care/Main/test.org",
-		"/home/rudfaden/Dropbox/PhD/bib/library (rudfaden-HP-EliteBook-2570p's conflicted copy 2015-03-20).bib",
-		"/Users/rudfaden/Dropbox/PhD/information-and-care/Main/appendix.tex",
-		"/Users/rudfaden/Dropbox/PhD/information-and-care/Main/root.tex",
-		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+		"/home/rudfaden/Downloads/untitled.md"
 	],
 	"find":
 	{
@@ -835,9 +837,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"sub-optimal",
-			"unrelaxed",
-			"\\hat R",
+			"limited ",
+			"align",
+			"A ty",
+			"\\dif",
+			"Overview",
+			"cannot $",
+			"canno \\$",
+			"canno $",
+			"appendicies",
 			"We ",
 			"We",
 			"_{\\min}",
@@ -956,13 +964,7 @@
 			"oau",
 			"n+1",
 			"build",
-			"journal",
-			"bib",
-			"Journal of Economics",
-			"Journal of Economics \\\\&",
-			"Journal of Economics",
-			"Journal of Economics \\& Management Strategy",
-			"journal of economics \\&"
+			"journal"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -991,7 +993,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1000,15 +1002,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20174,
+						"buffer_size": 20815,
 						"regions":
 						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										18208,
+										18208
+									]
+								],
+								"scope": "bookmarks"
+							}
 						},
 						"selection":
 						[
 							[
-								20069,
-								20069
+								12684,
+								12684
 							]
 						],
 						"settings":
@@ -1016,73 +1031,73 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
-							"spell_check": true,
+							"spell_check": false,
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7879.0,
+						"translation.y": 4558.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1090,15 +1105,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 979,
+						"buffer_size": 1286,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								174,
-								174
+								175,
+								175
 							]
 						],
 						"settings":
@@ -1107,36 +1122,6 @@
 							"__vi_external_disable": true,
 							"bh_regions":
 							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1147,21 +1132,51 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
 							"default_dir": "/home/rudfaden/Dropbox/PhD/No cure no pay/Main",
@@ -1177,16 +1192,109 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "Main/test.md",
+					"file": "Main/presentation/pres.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5533,
+								5533
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"_anf_new": "",
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
+							"history_list_is_closing": true,
+							"spell_check": true,
+							"syntax": "Packages/LaTeXing/support/LaTeX Beamer.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1922.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Main/vc.tex",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 13223,
+						"buffer_size": 934,
 						"regions":
 						{
 						},
@@ -1202,81 +1310,78 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor.tmTheme",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "Main/Remote.bib",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 204391,
+						"buffer_size": 205142,
 						"regions":
 						{
 						},
@@ -1292,46 +1397,51 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1341,39 +1451,34 @@
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_single_quote_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
 							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 60606.0,
+						"translation.y": 174.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "Main/preamble.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1127,
+						"buffer_size": 1158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1127,
-								1127
+								210,
+								210
 							]
 						],
 						"settings":
@@ -1381,31 +1486,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1416,123 +1496,60 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 154.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Main/vc.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 934,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								195,
-								195
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 112.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1627,12 +1644,24 @@
 		"selected_items":
 		[
 			[
+				"pre",
+				"Root/presentation/pres.tex"
+			],
+			[
 				"ro",
 				"Root/root.tex"
 			],
 			[
-				"pre",
+				"pr",
 				"Root/preamble.tex"
+			],
+			[
+				"pres",
+				"Root/presentation/pres.tex"
+			],
+			[
+				"roo",
+				"Root/root.tex"
 			],
 			[
 				"",
@@ -1641,10 +1670,6 @@
 			[
 				"opti",
 				"Figures/optimal-R.tikz"
-			],
-			[
-				"roo",
-				"root.tex"
 			],
 			[
 				"p",

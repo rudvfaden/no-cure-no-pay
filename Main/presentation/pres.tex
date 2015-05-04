@@ -1,0 +1,159 @@
+% -*- program: xelatex -*-
+\documentclass[compress, handout]{beamer}
+\usetheme{m}
+\setbeamercovered{transparent}
+\usepackage{commath}
+\usepackage{mathtools}
+\usepackage{cleveref}
+% bibliography
+\RequirePackage{csquotes}
+\emergencystretch=1em
+\hfuzz=5.002pt 
+\RequirePackage[%
+backend=biber,                       % use BibTeX
+style=chicago-authordate,
+url=false, isbn=false, doi=false
+]{biblatex}
+\addbibresource{../Remote.bib}
+\usepackage{silence}
+\WarningFilter{biblatex}{Patching footnotes failed}
+
+%% author and title 
+\title{No cure no pay --- contracts with limited liability}
+\subtitle{}
+\date{\today}
+\author{Rud Faden}
+\institute{University of Copenhagen}
+
+\hypersetup{
+pdfauthor = {Rud Faden: rudfaden@gmail.com},
+pdfsubject = {No cure no pay --- contracts with limited liability},
+pdfkeywords = {contingent contracts, limited liability, health care},
+pdfcreator = {LaTeXing}
+}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction \& Motivation}
+\begin{frame}{Introduction}
+  \begin{itemize}[<+- | alert@+>]
+    \item Health care cost are rising --- there is an interest in increasing productivity
+    \item Payment schemes should be constructed to increase output
+    \item But most focus seems to be on motivating the ``health organization''
+    \item Usually contracts are linear --- per item --- fees or fixed wages
+    \item I show that the optimal contract is a non-linear, contingent claim contract
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[c]{Contingent contracts}
+ \begin{itemize}[<+- | alert@+>]
+   \item Contingent contracts: payment is conditional on outcome
+   \item Well known from real estate and US lawyers
+   \item \cite{Lambert2005No} shows that shows that in the optimal contingent state contract, the physician pays a penalty fees to the principal
+   \item In many real life situations, such a contract may no be feasible
+   \item Therefore i assume that the optimal contract is subject to limited liability
+ \end{itemize}
+\end{frame}
+
+
+\begin{frame}[c]{The plan}
+  \begin{itemize}[<+- | alert@+>]
+      \item Assume that both physician and principal are risk neutral
+      \item Introduce the model
+      \item show that a fixed wage is optimal when effort is observed, and in-optimal if not
+      \item Show that the optimal contract is non-linear
+      \item Future work
+    \end{itemize}  
+\end{frame}
+
+\section{The Model}
+    
+\begin{frame}[c]{Environment I}
+\begin{itemize}[<+- | alert@+>]
+  \item The physician is employed by a health organization (hospital/municipal)
+  \item The physicians work is measured by observable output $y$
+  \item $y$ is random, with density $g(y|e)$ where $e$ is the physicians effort
+  \item It is assume that $g(\cdot)$ has a monotone likelihood ratio property
+  \[
+    \frac{\partial}{\partial y}\left(\frac{g_e(y|e)}{g(y|e)}\right)>0
+  \]
+  I.e.\ $y$ and $e$ are ``complements''
+  \item Effort comes at a cost $C(e)$
+\end{itemize}
+\end{frame}
+
+\begin{frame}[c]{Environment II}
+\begin{itemize}[<+- | alert@+>]
+  \item The physicians payment is given by $r=R(y,e)$
+  \item The physician has a utility function $u(r,y)$, which depends on payment and output
+  \item Dependence on output allows for a ``caring'' physician
+  \item The hospital has a budgetary income $v(y)$ from which it pays the physician
+\end{itemize}
+\end{frame}
+
+\begin{frame}[c]{The incentive problem}
+  The main problem is to find a contract $r=R(y,e)$, with the property that expected utility of the physician
+  \begin{align}
+       U(R,e)=\int u(R(y,e),y)g(y|e)\dif y-C(e) \label{eq:phys-util}
+  \end{align}
+  cannot be increased by a change in $R(y,e)$, without decreasing the expected net income of the hospital
+  \[
+    V(R,e)=\int \left[y-R(y,e)\right] g(y|e)\dif y
+  \]
+  subject to the \emph{incentive constraint} that effort in \cref{eq:phys-util} insures maximal utility
+\end{frame}
+
+\begin{frame}[c]{Limited Liability}
+  \begin{itemize}[<+- | alert@+>]
+    \item A key feature of the model is limited liability
+    \item Implies that the physician cannot be forced to pay for bad outcome and the hospital cannot be forced to pay more than the value of output
+    \item Formally $0\leq R(y) \leq y$
+    \item Limited liability reduces the set of contracts
+    \item E.g.\ it rules out a \citeauthor{Mirrlees1974Notes} forcing contract
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[c]{The Formal Problem}
+  \begin{subequations}
+\label{eq:khun-tucker-general}
+\begin{align}
+    \max_{R,e} & \int_0^{\infty}\left[u(R(y,e))+\delta y\right]g(y|e)\dif y-C(e)\label{subeq:khun-tucker1-general} \\
+    \text{s.t. }    & \int_{0}^{\infty} v(y-R(y,e))g(y|e)\dif y\geq y_L^0 \label{subeq:khun-tucker2-general} \\
+                    & E[u(R,e)|e]\leq E[u(R,e^*)|e] \label{subeq:khun-tucker3-general}\\
+                    & 0\leq R(y,e)\leq y \label{subeq:khun-tucker4-general}
+\end{align}
+\end{subequations}
+where \cref{subeq:khun-tucker1-general,subeq:khun-tucker2-general} are the physicians and hospitals utility. \cref{subeq:khun-tucker3-general} is the physicians \emph{incentive constraint} and \cref{subeq:khun-tucker4-general} is the limited liability constraint
+\end{frame}
+
+\begin{frame}[c]{First-Best and the In-optimality of Fixed Wage}
+  \begin{itemize}[<+- | alert@+>]
+    \item When effort is observable the problem becomes
+\begin{align*}
+    \max_{R,e} & \int_0^{\infty}\left[u(R(y,e))+\delta y\right]g(y|e)\dif y-C(e)\\
+    \text{s.t. } & \int_{0}^{\infty} v(y-R(y,e))g(y|e)\dif y\geq y_L^0 
+\end{align*}
+    \item Using point-wise optimization the optimal contract is implicitly given by 
+    \[
+      \frac{v'(y-R(y,e))}{u'(R(y,e))}=\frac{1}{\lambda}
+    \]
+    I.e.\ a fixed wage
+    \item This is the \emph{first-best} solution
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[c]{First-Best and the In-optimality of Fixed Wage}
+  \begin{itemize}[<+- | alert@+>]
+    \item In the following I assume that both parties are risk neutral and the utility is additive and separable
+    \item I.e.\ $u(\cdot)=R(y,e)+\delta y$ and $v(\cdot)=y-R(y,e)$
+  \end{itemize}
+\end{frame}
+
+% bibliography
+\begin{frame}[c]{Bibliography}
+\printbibliography%
+  
+\end{frame}
+\end{document}

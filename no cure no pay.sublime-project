@@ -43,7 +43,9 @@
 				"*blx.bib",
 				"*.ptex",
 				"*.bcf",
-				".Rapp.history"
+				".Rapp.history",
+				"*.gz",
+				"*.gz(busy)"
 			]
 			
 		},
@@ -89,7 +91,9 @@
 				"*blx.bib",
 				"*.ptex",
 				"*.bcf",
-				".Rapp.history"
+				".Rapp.history",
+				"*.gz",
+				"*.gz(busy)"
 			]
 			
 		}
