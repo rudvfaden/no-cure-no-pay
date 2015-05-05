@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"ltx",
-				"ltx program	LaTeXing Option Program"
+				"over",
+				"overbrace{arg}	mathtools"
 			],
 			[
 				"end",
-				"end{proof}	root.tex"
+				"end{columns}	pres.tex"
+			],
+			[
+				"ltx",
+				"ltx program	LaTeXing Option Program"
 			],
 			[
 				"cite",
@@ -84,53 +88,10 @@
 	"buffers":
 	[
 		{
-			"file": "Main/root.tex",
-			"settings":
-			{
-				"buffer_size": 20815,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Remote:   origin @ git@github.com:rudvfaden/no-cure-no-pay.git\nLocal:    master ~/Dropbox/PhD/No cure no pay\nHead:     3101078 Updated and changed abstract\n\n\nUntracked files:\n	Main/presentation/\n	Main/simulation.R\n\nChanges:\n	Modified   Main/Remote.bib\n	Modified   Main/faden.sty\n	Modified   Main/preamble.tex\n	Modified   Main/root.pdf\n	Deleted    Main/root.rtf\n	Modified   Main/root.tex\n	Deleted    Main/test.md\n	Modified   Main/vc.tex\n	Modified   no cure no pay.sublime-project\n	Modified   no cure no pay.sublime-workspace\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
-			"settings":
-			{
-				"buffer_size": 1286,
-				"line_ending": "Unix",
-				"name": "*git-status*: No cure no pay",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
 			"file": "Main/presentation/pres.tex",
 			"settings":
 			{
-				"buffer_size": 6118,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Main/vc.tex",
-			"settings":
-			{
-				"buffer_size": 934,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Main/Remote.bib",
-			"settings":
-			{
-				"buffer_size": 205142,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Main/preamble.tex",
-			"settings":
-			{
-				"buffer_size": 1158,
+				"buffer_size": 12517,
 				"line_ending": "Unix"
 			}
 		}
@@ -143,40 +104,224 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "pack",
+		"last_filter": "ena",
 		"selected_items":
 		[
 			[
-				"pack",
-				"PackageResourceViewer: Open Resource"
-			],
-			[
-				"cac",
-				"LaTeXing: Rebuild Cache (Hard)"
-			],
-			[
-				"title",
-				"Convert Case: Title Case"
-			],
-			[
-				"en",
-				"Package Control: Enable Package"
-			],
-			[
 				"ena",
 				"Package Control: Enable Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"dis",
 				"Package Control: Disable Package"
 			],
 			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"tra",
+				"Google Translate selected to..."
+			],
+			[
+				"tran",
+				"Google Translate selected text"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"onlin",
+				"LaTeXing: Online Lookup"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"clean",
+				"LaTeXing: Clean up (Remove) all Nonessential Files"
+			],
+			[
+				"set la",
+				"Set Syntax: LaTeXing"
+			],
+			[
+				"cle",
+				"LaTeXing: Clean up (Remove) all Nonessential Files"
+			],
+			[
+				"instal l",
+				"Package Control: Install Package"
+			],
+			[
+				"enable l",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Repository"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
 				"pac",
+				"Package Control: Add Repository"
+			],
+			[
+				"add ch",
+				"Package Control: Add Channel"
+			],
+			[
+				"packa",
+				"Package Control: Add Repository"
+			],
+			[
+				"set beam",
+				"Set Syntax: LaTeX Beamer"
+			],
+			[
+				"cac",
+				"LaTeXing: Rebuild Cache (Hard)"
+			],
+			[
+				"clea",
+				"LaTeXing: Clean up (Remove) all Nonessential Files"
+			],
+			[
+				"che",
+				"LaTeXing: Check System"
+			],
+			[
+				"Snippet: ar",
+				"Snippet: New Article"
+			],
+			[
+				"Snippet: art",
+				"Snippet: article_class"
+			],
+			[
+				"tex",
+				"TeX Live Package Manager: Manage Collections"
+			],
+			[
+				"rebu",
+				"LaTeXing: Rebuild Cache"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"cach",
+				"LaTeXing: Rebuild Cache (Hard)"
+			],
+			[
+				"set she",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"check te",
+				"LaTeXing: Check System"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"latex",
+				"LaTeXing: Check System"
+			],
+			[
+				"sublime",
+				"SublimeGit: Add License"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"set la b",
+				"Set Syntax: LaTeX Beamer"
+			],
+			[
+				"conver spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"to star",
+				"LaTeXing: Toggle Star Environment"
+			],
+			[
+				"star",
+				"LaTeXing: Toggle Star Environment"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"set ma",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"remo pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"sublimeli de",
+				"SublimeLinter: Disable Debug Mode"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"latexing cl",
+				"LaTeXing: Clean Temporary Output Dictionary"
+			],
+			[
+				"clen",
+				"LaTeXing: Clean up (Remove) all Nonessential Files"
+			],
+			[
+				"cl",
+				"LaTeXing: Clean Temporary Output Dictionary"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
 				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
 			],
 			[
 				"Snippet: be",
@@ -187,14 +332,6 @@
 				"Set Syntax: Shell Script (Bash)"
 			],
 			[
-				"cle",
-				"LaTeXing: Clean up (Remove) all Nonessential Files"
-			],
-			[
-				"cl",
-				"LaTeXing: Clean Temporary Output Dictionary"
-			],
-			[
 				"upgra",
 				"Package Control: Upgrade Package"
 			],
@@ -203,32 +340,12 @@
 				"SubTexting: Send Message"
 			],
 			[
-				"git p",
-				"Git: Push"
-			],
-			[
-				"git stat",
-				"Git: Status"
-			],
-			[
-				"clean",
-				"LaTeXing: Clean up (Remove) all Nonessential Files"
-			],
-			[
 				"cache",
 				"LaTeXing: Rebuild Cache (Hard)"
 			],
 			[
-				"git pus",
-				"Git: Push"
-			],
-			[
 				"git sta",
 				"Git: Status"
-			],
-			[
-				"clen",
-				"LaTeXing: Clean up (Remove) all Nonessential Files"
 			],
 			[
 				"git lo",
@@ -259,19 +376,7 @@
 				"Git: Diff"
 			],
 			[
-				"git co",
-				"Git: Commit"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
 				"disa",
-				"Package Control: Disable Package"
-			],
-			[
-				"di",
 				"Package Control: Disable Package"
 			],
 			[
@@ -313,10 +418,6 @@
 			[
 				"email",
 				"E-Mail: Send E-Mail"
-			],
-			[
-				"clea",
-				"LaTeXing: Clean up (Remove) all Nonessential Files"
 			],
 			[
 				"view",
@@ -431,10 +532,6 @@
 				"Package Control: List Packages"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"linter",
 				"SublimeLinter: Disable Linting"
 			],
@@ -521,145 +618,9 @@
 			[
 				"qu",
 				"Build: Choose Quick Build"
-			],
-			[
-				"qui",
-				"Build: Choose Quick Build"
-			],
-			[
-				"set latexing",
-				"Set Syntax: LaTeXing"
-			],
-			[
-				"set late",
-				"Set Syntax: LaTeXing"
-			],
-			[
-				"bui",
-				"Build: Choose Quick Build"
-			],
-			[
-				"st sy lat",
-				"Set Syntax: LaTeXing"
-			],
-			[
-				"list pa",
-				"Package Control: List Packages"
-			],
-			[
-				"CL",
-				"Build: Clean up Files"
-			],
-			[
-				"QU",
-				"Build: Choose Quick Build"
-			],
-			[
-				"q",
-				"Build: Choose Quick Build"
-			],
-			[
-				"imp",
-				"LaTeXing: Import Citation(s)"
-			],
-			[
-				"import",
-				"LaTeXing: Import Citation(s)"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"too c",
-				"Toggle Comment"
-			],
-			[
-				"too",
-				"LaTeXing: Toggle Offline Mode"
-			],
-			[
-				"git diff",
-				"Git: Diff"
-			],
-			[
-				"git bl",
-				"Git: Blame"
-			],
-			[
-				"al",
-				"AlignTab"
-			],
-			[
-				"ali",
-				"AlignTab"
-			],
-			[
-				"set la",
-				"Set Syntax: LaTeXing"
-			],
-			[
-				"ima",
-				"Snippet: Markdown_image_(mdi)"
-			],
-			[
-				"git remo",
-				"Git: Add Remote"
-			],
-			[
-				"git: pus",
-				"Git: Push"
-			],
-			[
-				"op",
-				"Sublime-IJulia: Open New IJulia Console"
-			],
-			[
-				"git ini",
-				"Git: Init"
-			],
-			[
-				"jul co",
-				"Sublime-IJulia: Open New IJulia Console"
-			],
-			[
-				"li",
-				"Package Control: List Packages"
-			],
-			[
-				"juli c",
-				"Sublime-IJulia: Open New IJulia Console"
-			],
-			[
-				"jul",
-				"Set Syntax: Julia"
-			],
-			[
-				"op ju",
-				"Sublime-IJulia: Open New IJulia Console"
-			],
-			[
-				"cop",
-				"File: Copy Path"
-			],
-			[
-				"xiki",
-				"Create Xiki Buffer"
-			],
-			[
-				"set sy la",
-				"Set Syntax: LaTeXing"
-			],
-			[
-				"set syn mark",
-				"Set Syntax: Markdown"
-			],
-			[
-				"set py",
-				"Set Syntax: Python"
 			]
 		],
-		"width": 529.0
+		"width": 664.0
 	},
 	"console":
 	{
@@ -680,11 +641,44 @@
 	},
 	"expanded_folders":
 	[
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/fig"
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main"
 	],
 	"file_history":
 	[
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/no cure no pay.sublime-project",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/preamble.tex",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.tex",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Project Manager/pm.sublime-settings",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/pm.sublime-settings",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Inline Google Translate/goTranslate.sublime-settings",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/goTranslate.sublime-settings",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/faden.sty",
+		"/home/rudfaden/Downloads/impressive.contract",
+		"/home/rudfaden/Downloads/untitled.tex",
+		"/home/rudfaden/.bashrc",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/LaTeXing.sublime-settings",
+		"/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/microtype.cfg",
+		"/home/rudfaden/.zshrc",
+		"/home/rudfaden/.profile",
+		"/home/rudfaden/Dropbox/Programming/bash/bin/sublime_launch.sh",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/Remote.bib",
+		"/home/rudfaden/.zhsrc",
+		"/etc/environment",
+		"/home/rudfaden/Dropbox/Programming/bash/bin/chrome_launch.sh",
+		"/Users/rudfaden/Dropbox/PhD/No cure no pay/Main/root.tex",
+		"/Users/rudfaden/Dropbox/PhD/No cure no pay/Main/presentation/pres.tex",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/presentation/pres.tex",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.bak2",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/presentation/defaultSettings.yaml",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/LaTeX.sublime-settings",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/vc.tex",
+		"/home/rudfaden/Dropbox/Programming/latexindent.pl/readme.md",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/simulation.R",
+		"/home/rudfaden/Dropbox/Programming/matlab/gridDemo.m",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/fig/optimal-R.tikz",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Cheat Sheets/cheat-sheets/Bash.cheatsheet",
+		"/home/rudfaden/Dropbox/PhD/No cure no pay/.git/refs/heads/master (Rud Faden's conflicted copy 2015-04-30)",
 		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/completions/LaTeX Math.latexing-completions",
 		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/completions/LaTeX Greek Letters.sublime-completions",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-completions.sublime-completions",
@@ -692,8 +686,6 @@
 		"/home/rudfaden/.config/sublime-text-3/Packages/SublimePackageSync/SublimePackageSync.sublime-settings",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar (rudfaden-HP-EliteBook-2570p's conflicted copy 2015-05-04).sublime-menu",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/presentation/pres.tex",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/alert-item.sublime-snippet",
 		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeX/Itemize.sublime-snippet",
 		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/snippets/beamer/Frame.sublime-snippet",
@@ -702,22 +694,16 @@
 		"/etc/default/grub",
 		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/test.tex",
 		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root (Hanss-Mac-minis modstridende kopi 2015-04-29).log",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/faden.sty",
 		"/home/rudfaden/Dropbox/PhD/No cure no pay/ (Rud Faden's conflicted copy 2015-04-30).gitignore",
-		"/home/rudfaden/.zshrc",
-		"/home/rudfaden/.profile",
 		"/home/rudfaden/Downloads/vc/git-unix/vc",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/vc.tex",
 		"/home/rudfaden/texmf/tex/latex/faden-package/faden.sty",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/emph.sublime-macro",
 		"/home/rudfaden/Downloads/Rud.tex",
 		"/home/rudfaden/Dropbox/Programming/bash/bin/mendeley_launch.sh",
-		"/home/rudfaden/.bashrc",
 		"/home/rudfaden/barsch",
 		"/home/rudfaden/profile",
 		"/home/rudfaden/texmf/tex/latex/faden-package/README.md",
 		"/home/rudfaden/Dropbox/Programming/kjh-vita/vc.tex",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/preamble.tex",
 		"/home/rudfaden/Dropbox/Programming/kjh-vita/kjh-vita.tex",
 		"/home/rudfaden/texmf/tex/latex/vc/git-unix/vc",
 		"/usr/local/texlive/2014/bin/x86_64-linux/xindy",
@@ -779,7 +765,6 @@
 		"/home/rudfaden/Downloads/Primo_RIS_Export (1).ris",
 		"/home/rudfaden/Downloads/Primo_RIS_Export.ris",
 		"/usr/local/texlive/2014/texmf-dist/tex/latex/arabtex/utf8.sty",
-		"/home/rudfaden/Downloads/untitled.tex",
 		"/home/rudfaden/Dropbox/PhD/bib/library.bib",
 		"/home/rudfaden/Downloads/praksistælling 2014.sas",
 		"/home/rudfaden/Downloads/Praksistælling 1977-2014 log til Rud.log",
@@ -787,32 +772,7 @@
 		"/home/rudfaden/Dropbox/Programming/SAS/format region 2011.sas",
 		"/home/rudfaden/Dropbox/Programming/SAS/Format kommuner 2011.sas",
 		"/home/rudfaden/Downloads/Praksistælling 2014 log til Rud.log",
-		"/home/rudfaden/7pf",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/Main/root.tex",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/Pandown.sublime-settings",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/fig/optimal-R.tikz",
-		"/home/rudfaden/.config/sublime-text-3/Packages/View In Browser/View In Browser.sublime-settings",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
-		"/home/rudfaden/Downloads/Hello! (1).html",
-		"/home/rudfaden/Downloads/Pandoc Output",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-snippets/partial-derivative.sublime-snippet",
-		"/home/rudfaden/Dropbox/Apps/Texpad/information-and-care/Main/root.tex",
-		"/home/rudfaden/Dropbox/Apps/Texpad/information-and-care/Main/configure.tex",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/.gitignore",
-		"/home/rudfaden/Dropbox/PhD/information-and-care/.gitignore",
-		"/home/rudfaden/Dropbox/PhD/No cure no pay/no cure no pay.sublime-project",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/fuzzy_file_nav.sublime-settings",
-		"/home/rudfaden/Dropbox/Sites/githubblog/github_blog.sublime-workspace",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-snippets/tikz-axis.sublime-snippet",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-snippets/super.sublime-snippet",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-snippets/tikz-environment.sublime-snippet",
-		"/home/rudfaden/.config/sublime-text-3/Packages/TikZ/snippets/demo1.sublime-snippet",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-snippets/series.sublime-snippet",
-		"/home/rudfaden/.config/sublime-text-3/Packages/User/EasyMotion.sublime-settings",
-		"/home/rudfaden/Dropbox/Programming/bash/bin/chrome_launch.sh",
-		"/home/rudfaden/Dropbox/PhD/information-and-care/Main/preamble.tex",
-		"/home/rudfaden/Downloads/untitled.md"
+		"/home/rudfaden/7pf"
 	],
 	"find":
 	{
@@ -837,6 +797,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"khun-tucker",
+			"-general",
+			"khun-tucker",
+			"khun-tucker-",
+			"khun-tucker",
+			"eq:KT-analysis",
+			"lagrange-",
+			"khun-tucker-ra",
+			"Lambert",
+			"lambert",
+			"lamber",
+			"j",
+			"47(protrusion)",
+			"j",
+			"Schoonb",
+			"Schoonbeek",
+			"Schoonbeek2005no",
+			"lamber",
+			"of",
+			"label",
+			"alignat",
+			"itimize",
+			"u\\(R,e\\)",
+			"R\\(y\\)",
+			"R(y)",
+			"R\\(y\\)",
+			"R\\\\(y\\\\)",
+			"R\\(y\\)",
+			"R(y)",
 			"limited ",
 			"align",
 			"A ty",
@@ -935,43 +924,16 @@
 			"pdf",
 			"amir",
 			"cite",
-			"Milgrom1982",
-			"cite",
-			"Persico2000",
-			"Lehmann1988",
-			"cite",
-			"Weiss1996",
-			"athey",
-			"journal",
-			"athey",
-			"ath",
-			"athay",
-			"journal",
-			"jou",
-			"journal",
-			"build",
-			"Milgrom1982a",
-			"Milgrom1982",
-			"milgrom",
-			"Primary Care: Concept, Evaluation, and Policy",
-			"Starfield1992",
-			"star",
-			"start",
-			"star",
-			"jou",
-			"j",
-			"journal",
-			"oau",
-			"n+1",
-			"build",
-			"journal"
+			"Milgrom1982"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"u(R(y,e),y)",
+			"R(y,e)",
 			"$",
 			"\\\\dif",
 			"\\{theorem\\}",
@@ -988,42 +950,29 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Main/root.tex",
+					"file": "Main/presentation/pres.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20815,
+						"buffer_size": 12517,
 						"regions":
 						{
-							"bookmarks":
-							{
-								"flags": 144,
-								"icon": "bookmark",
-								"regions":
-								[
-									[
-										18208,
-										18208
-									]
-								],
-								"scope": "bookmarks"
-							}
 						},
 						"selection":
 						[
 							[
-								12684,
-								12684
+								932,
+								932
 							]
 						],
 						"settings":
@@ -1031,31 +980,31 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1066,490 +1015,37 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
-							"spell_check": false,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4558.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								175,
-								175
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"__vi_external_disable": true,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
-							"default_dir": "/home/rudfaden/Dropbox/PhD/No cure no pay/Main",
-							"draw_white_space": "none",
-							"git_repo": "/home/rudfaden/Dropbox/PhD/No cure no pay",
-							"git_status": true,
-							"git_view": "status",
-							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Main/presentation/pres.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6118,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5533,
-								5533
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"_anf_new": "",
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
-							"history_list_is_closing": true,
 							"spell_check": true,
 							"syntax": "Packages/LaTeXing/support/LaTeX Beamer.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1922.0,
+						"translation.y": 242.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Main/vc.tex",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 934,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Main/Remote.bib",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 205142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								120915,
-								120915
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
-							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 174.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Main/preamble.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1158,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								210,
-								210
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1557,7 +1053,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -1634,7 +1130,7 @@
 	"project": "no cure no pay.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1644,24 +1140,28 @@
 		"selected_items":
 		[
 			[
+				"roo",
+				"Root/root.tex"
+			],
+			[
 				"pre",
-				"Root/presentation/pres.tex"
+				"Root/preamble.tex"
 			],
 			[
 				"ro",
 				"Root/root.tex"
 			],
 			[
-				"pr",
-				"Root/preamble.tex"
-			],
-			[
 				"pres",
 				"Root/presentation/pres.tex"
 			],
 			[
-				"roo",
-				"Root/root.tex"
+				"si",
+				"Root/simulation.R"
+			],
+			[
+				"pr",
+				"Root/preamble.tex"
 			],
 			[
 				"",

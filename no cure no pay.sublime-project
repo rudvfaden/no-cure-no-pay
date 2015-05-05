@@ -1,57 +1,54 @@
 {
 	"folders":
 	[
-		{	"follow_symlinks": true,
+		{
+			"file_exclude_patterns":
+			[
+				"*.acn",
+				"*.acr",
+				"*.alg",
+				"*.aux",
+				"*.bbl",
+				"*.blg",
+				"*.dvi",
+				"*.fdb_latexmk",
+				"*.glg",
+				"*.glo",
+				"*.gls",
+				"*.idx",
+				"*.ilg",
+				"*.ind",
+				"*.ist",
+				"*.lof",
+				"*.log",
+				"*.lot",
+				"*.maf",
+				"*.mtc",
+				"*.mtc0",
+				"*.nav",
+				"*.nlo",
+				"*.out",
+				"*.pdfsync",
+				"*.ps",
+				"*.snm",
+				"*.synctex.gz",
+				"*.toc",
+				"*.vrb",
+				"*.xdy",
+				"*.tdo",
+				"*.xml",
+				"*.fls",
+				"*blx.bib",
+				"*.ptex",
+				"*.bcf",
+				".Rapp.history",
+				"*.gz",
+				"*.gz(busy)"
+			],
 			"name": "Root",
-			"path": "Main",
-			"file_exclude_patterns":
-			[
-				"*.acn",
-				"*.acr",
-				"*.alg",
-				"*.aux",
-				"*.bbl",
-				"*.blg",
-				"*.dvi",
-				"*.fdb_latexmk",
-				"*.glg",
-				"*.glo",
-				"*.gls",
-				"*.idx",
-				"*.ilg",
-				"*.ind",
-				"*.ist",
-				"*.lof",
-				"*.log",
-				"*.lot",
-				"*.maf",
-				"*.mtc",
-				"*.mtc0",
-				"*.nav",
-				"*.nlo",
-				"*.out",
-				"*.pdfsync",
-				"*.ps",
-				"*.snm",
-				"*.synctex.gz",
-				"*.toc",
-				"*.vrb",
-				"*.xdy",
-				"*.tdo",
-				"*.xml",
-				"*.fls",
-				"*blx.bib",
-				"*.ptex",
-				"*.bcf",
-				".Rapp.history",
-				"*.gz",
-				"*.gz(busy)"
-			]
-			
+			"path": "Main"
 		},
-		{	"follow_symlinks": true,
-			"name": "Figures",
-			"path": "fig",
+		{
 			"file_exclude_patterns":
 			[
 				"*.acn",
@@ -94,8 +91,12 @@
 				".Rapp.history",
 				"*.gz",
 				"*.gz(busy)"
-			]
-			
+			],
+			"name": "Figures",
+			"path": "fig"
+		},
+		{
+			"path": "/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath"
 		}
 	]
 }
